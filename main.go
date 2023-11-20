@@ -22,5 +22,5 @@ func main() {
   r := routers.SetupRouter()
   r.Use(cors.Default())
 
-  r.Run()
+  r.Run(":8080")
 }
